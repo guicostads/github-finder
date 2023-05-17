@@ -15,11 +15,11 @@ export const User = ({ login, avatar_url, followers, following, location }: User
             <div className={classes.stats}>
                 <div>
                     <p> Seguidores:</p>
-                    <p><strong>{followers}</strong></p>
+                    <p className={classes.numbers}><strong>{followers}</strong></p>
                 </div>
                 <div>
                     <p> Seguindo:</p>
-                    <p><strong>{following}</strong></p>
+                    <p className={classes.numbers}><strong>{following}</strong></p>
                 </div>
             </div>
             <Link to={`/repos/${login}`}>Ver melhores projetos:</Link>
