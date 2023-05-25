@@ -1,0 +1,16 @@
+.repo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #64f6;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.repo h1 {
+  font-size: 1.5rem;
+}
