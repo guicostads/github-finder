@@ -22,7 +22,7 @@ export const User = ({ login, avatar_url, followers, following, location }: User
                     <p className={classes.numbers}><strong>{following}</strong></p>
                 </div>
             </div>
-            <Link to={`/repos/${login}`}>Ver melhores projetos:</Link>
+            <Link to='/repos'>Acessar repositórios:</Link>
         </div>
     )
 }
