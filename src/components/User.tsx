@@ -5,7 +5,7 @@ import classes from "./User.module.css"
 
 
 
-export const User = ({ login, avatar_url, followers, following, location }: UserProps) => {
+export const User = ({ login, avatar_url, followers, following, location}: UserProps) => {
     return (
         <div className={classes.user}>
             <img src={avatar_url} alt='user avatar' />
